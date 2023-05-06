@@ -1,7 +1,8 @@
-import time
+def multiply(*numbers):
+    total = 1
+    for number in numbers:
+        total *= number
+    return total
 
-trace_time = time.localtime()
-trace_time = time.time()
-trace_time = time.ctime()
-trace_time = time.asctime()
-print(trace_time)
+
+print(multiply(1, 2, 3, 4))
