@@ -1,6 +1,7 @@
-for index in range(2):
-    print(index)
-FLOW = 1
-BANG = 2
-BANGBANG = 3
-print(FLOW + BANG + BANGBANG)
+import time
+
+trace_time = time.localtime()
+trace_time = time.time()
+trace_time = time.ctime()
+trace_time = time.asctime()
+print(trace_time)
