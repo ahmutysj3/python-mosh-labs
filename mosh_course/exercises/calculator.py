@@ -7,4 +7,3 @@ num1 = float(input("NUMBER 1: "))
 num2 = float(input("NUMBER 2: "))
 total = num1 + num2
 print(name + " your total is " + str(total))
-
