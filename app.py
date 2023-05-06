@@ -3,3 +3,4 @@ for index in range(2):
 FLOW = 1
 BANG = 2
 BANGBANG = 3
+print(FLOW + BANG + BANGBANG)
