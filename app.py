@@ -1,10 +1,4 @@
-from collections import deque
-queue = deque([])
-queue.append(10)
-queue.append(20)
-queue.append(30)
-print("before popleft")
-print(queue)
-queue.popleft()
-print("after popleft")
-print(queue)
+point1 = (1,2) 
+point2 = (3,4)
+point3 = point1 + point2 
+print(point3)
