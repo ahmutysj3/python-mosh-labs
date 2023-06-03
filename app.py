@@ -1,4 +1,5 @@
-point1 = (1,2) 
-point2 = (3,4)
-point3 = point1 + point2 
-print(point3)
+from array import array
+
+numbers = array("i",[1,2,3])
+numbers[0] = 1.0 # produces error
+print(numbers[0]) # produces error
